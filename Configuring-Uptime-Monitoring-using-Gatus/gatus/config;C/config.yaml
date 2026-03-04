@@ -1,0 +1,25 @@
+endpoints:
+  - name: Example Website
+    url: "https://example.com"
+    interval: 60s
+    conditions:
+      - "[STATUS] == 200"
+
+  - name: GitHub
+    url: "https://github.com"
+    interval: 60s
+    conditions:
+      - "[STATUS] == 200"
+
+  - name: Nonexistent
+    url: "https://thiswebsitedoesnotexist.com"
+    interval: 60s
+    conditions:
+      - "[STATUS] == 200"
+
+alerts:
+  - type: slack
+    url: "https://hooks.slack.com/services/YOUR/WEBHOOK/URL"
+    failure-threshold: 2
+    success-threshold: 2
+
