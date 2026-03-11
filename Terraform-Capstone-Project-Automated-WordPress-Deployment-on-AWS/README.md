@@ -447,6 +447,29 @@ terraform validate
 
 terraform plan
 
+![Terraform plan](./img/Terraform%20plan.png)
+
+![Terraform plan bottom](./img/Terraform%20plan%20bottom.png)
+
+Apply
+
+terraform apply
+
+![Terraform apply top](./img/Terraform%20apply%20top.png)
+
+![Teraform apply middle](./img/Terraform%20apply%20middle.png)
+
+![Terraform apply middle2](./img/Terraform%20apply%20middle2.png)
+
+![Terraform apply bottom](./img/Terraform%20apply%20bottom.png)
+
+Outputs
+
+terraform output
+
+![Terraform output](./img/Terraform%20output.png)
+
+
 
 
 
